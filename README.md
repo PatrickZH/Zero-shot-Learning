@@ -1,7 +1,12 @@
 # Zero-shot-Learning
 This is a display page of our works on Zero-shot Learning.
 
-Overall, we illustrate 4 papers and 1 attribute dataset, namely,
+Overall, we illustrate 4 papers including an attribute dataset, namely, <br>
+[1] Zero-shot learning posed as a missing data problem, <br>
+[2] A Large-scale Attribute Dataset for Zero-shot Learning, <br>
+[3] MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning, <br>
+[4] Zero-shot Learning via Recurrent Knowledge Transfer. <br>
+
 
 @inproceedings{zhao2017zero,
   title={Zero-shot learning posed as a missing data problem},
@@ -11,6 +16,7 @@ Overall, we illustrate 4 papers and 1 attribute dataset, namely,
   year={2017},
   organization={IEEE}
 }
+
 
 @article{zhao2018large,
   title={A Large-scale Attribute Dataset for Zero-shot Learning},
