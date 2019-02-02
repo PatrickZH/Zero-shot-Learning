@@ -16,9 +16,9 @@ This paper presents a method of zero-shot learning (ZSL) which poses ZSL as the 
 Code: [Python](https://github.com/AIChallenger/AI_Challenger_2018/tree/master/Baselines/zero_shot_learning_baseline),
 [Matlab](https://github.com/PatrickZH/Zero-Shot-Learning-Posed-as-a-Missing-Data-Problem)
 
-
 ![](2017ICCVW.png)
 
+Citation <br>
 ```
 @inproceedings{zhao2017zero,
   title={Zero-shot learning posed as a missing data problem},
@@ -42,6 +42,7 @@ from [BaiduYun](https://pan.baidu.com/s/1QpUpNLnUAOK1vhg5Di0qUQ), Password: cwju
 
 ![](2017_attribute_dataset.png)
 
+Citation <br>
 ```
 @article{zhao2018large,
   title={A Large-scale Attribute Dataset for Zero-shot Learning},
@@ -53,13 +54,15 @@ from [BaiduYun](https://pan.baidu.com/s/1QpUpNLnUAOK1vhg5Di0qUQ), Password: cwju
 
 ## [3] MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning <br>
 It is one typical and general topic of learning a good embedding model to efficiently learn the representation coefficients between two spaces/subspaces. To solve this task, L1 regularization is widely used for the pursuit of feature selection and avoiding overfitting, and yet the sparse estimation of features in L1 regularization may cause the underfitting of training data. L2 regularization is also frequently used, but it is a biased estimator. In this paper, we propose the idea that the features consist of three orthogonal parts, namely sparse strong signals, dense weak signals and random noise, in which both strong and weak signals contribute to the fitting of data. To facilitate such novel decomposition, MSplit LBI is for the first time proposed to realize feature selection and dense estimation simultaneously. We provide theoretical and simulational verification that our method exceeds L1 and L2 regularization, and extensive experimental results show that our method achieves state-of-the-art performance in the few-shot and zero-shot learning. <br>
-![](2018ICML_1.png)
 We also visualize the strong and weak signals (i.e. the strongly and weakly related classes) in zero-shot learning experiments.
-![](2018ICML_2.png)
 
 [Paper Download](https://arxiv.org/pdf/1806.04360.pdf)<br>
 [Code](https://github.com/PatrickZH/MSplitLBI)
 
+![](2018ICML_1.png)
+![](2018ICML_2.png)
+
+Citation <br>
 ```
 @article{zhao2018msplit,
   title={MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning},
@@ -69,9 +72,20 @@ We also visualize the strong and weak signals (i.e. the strongly and weakly rela
 }
 ```
 
+## [4] Zero-shot Learning via Recurrent Knowledge Transfer <br>
+Recently, many works implement zero-shot learning by transferring structural knowledge from the semantic embedding space to the image feature space. However, we observe that such direct knowledge transfer may suffer from the space shift problem in the form of the inconsistency of geometric structures in the training and testing spaces. To alleviate this problem, we propose a novel method which actualizes recurrent knowledge transfer (RecKT) between the two spaces. Specifically, we unite the two spaces into the joint embedding space in which unseen image data are missing. The proposed method provides a synthesis-refinement mechanism to learn the shared subspace structure (SSS) and synthesize missing data simultaneously in the joint embedding space. The synthesized unseen image data are utilized to construct the classifier for unseen classes. Experimental results show that our method outperforms the state-of-the-art on three popular datasets. The ablation experiment and visualization of the learning process illustrate how our method can alleviate the space shift problem. By product, our method provides a perspective to interpret the ZSL performance by implementing subspace clustering on the learned SSS.  <br>
+[Paper Download](https://drive.google.com/open?id=1cUsQWX80zeCxTyVSCcYlqEWZP-Hq0KzR)<br>
+Code: Coming Soon
+
+![](2019WACV_1.png)
+![](2019WACV_2.png)
+
+Citation <br>
+```
 @article{,
   title={Zero-shot Learning via Recurrent Knowledge Transfer},
   author={Zhao, Bo and Sun, Xinwei and Hong, Xiaopeng and Yao, Yuan and Wang, Yizhou},
-  journal={},
-  year={}
+  journal={Proceedings of IEEE Winter Conf. on Applications of Computer Vision (WACV)},
+  year={2019}
 }
+```
