@@ -3,10 +3,10 @@ This is a display page of our works on Zero-shot Learning. <br>
 Contact: Bo Zhao (bozhaonanjing at Gmail)
 
 Overall, we illustrate 4 papers including an attribute dataset, namely, <br>
-[1] Zero-shot learning posed as a missing data problem, <br>
-[2] A Large-scale Attribute Dataset for Zero-shot Learning, <br>
-[3] MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning, <br>
-[4] Zero-shot Learning via Recurrent Knowledge Transfer. <br><br>
+[1] Zero-shot learning posed as a missing data problem, ICCVW 2017 <br>
+[2] A Large-scale Attribute Dataset for Zero-shot Learning, arXiv 2017 <br>
+[3] MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning, ICML 2018 <br>
+[4] Zero-shot Learning via Recurrent Knowledge Transfer. WACV 2019<br><br>
 
 
 ## [1] Zero-shot learning posed as a missing data problem <br>
@@ -16,7 +16,8 @@ This paper presents a method of zero-shot learning (ZSL) which poses ZSL as the 
 Code: [Python](https://github.com/AIChallenger/AI_Challenger_2018/tree/master/Baselines/zero_shot_learning_baseline),
 [Matlab](https://github.com/PatrickZH/Zero-Shot-Learning-Posed-as-a-Missing-Data-Problem)
 
-![](2017ICCVW.png)
+![](2017ICCVW.png) <br>
+Figure 1. Illustration of the proposed method. The manifold structure (the straight lines) in the label embedding space is transferred to the image feature space for synthesizing the virtual cluster center (the purple star) of an unseen class. The purple arrow points to a refined cluster center (the red star), which demonstrates that the synthesized virtual cluster center is optimized after running the Expectation-Maximization algorithm so that unseen data are assigned to labels according to the data distribution. <br>
 
 Citation <br>
 ```
@@ -40,7 +41,8 @@ from [BaiduYun](https://pan.baidu.com/s/1QpUpNLnUAOK1vhg5Di0qUQ), Password: cwju
 [AI Challenger - Zero-shot Learning Competition](https://challenger.ai/competition/zsl2018) <br>
 [Baseline Code](https://github.com/AIChallenger/AI_Challenger_2018/tree/master/Baselines/zero_shot_learning_baseline)
 
-![](2017_attribute_dataset.png)
+![](2017_attribute_dataset.png) <br>
+Figure 1. The overview of the proposed LAD dataset. It includes 230 classes belonging to five super-classes (domains). Labels, bounding boxes and attributions are annotated. The upper two attributes are visual attributes, while the bottom two are semantic attributes. <br>
 
 Citation <br>
 ```
@@ -59,8 +61,11 @@ We also visualize the strong and weak signals (i.e. the strongly and weakly rela
 [Paper Download](https://arxiv.org/pdf/1806.04360.pdf)<br>
 [Code](https://github.com/PatrickZH/MSplitLBI)
 
-![](2018ICML_1.png)
-![](2018ICML_2.png)
+![](2018ICML_1.png) <br>
+Figure 1. MSplit LBI is learned in linear embedding to decompose the features into sparse strong signals, dense weak signals and random noise. The sparse strong signals facilitate the feature selection. The dense estimation can be done via the sparse strong signals and dense weak signals. <br>
+![](2018ICML_2.png)<br>
+Table 3. Regression weights of three target domain (unseen) animals on AwA.
+<br>
 
 Citation <br>
 ```
@@ -77,8 +82,10 @@ Recently, many works implement zero-shot learning by transferring structural kno
 [Paper Download](https://drive.google.com/open?id=1cUsQWX80zeCxTyVSCcYlqEWZP-Hq0KzR)<br>
 Code: Coming Soon
 
-![](2019WACV_1.png)
-![](2019WACV_2.png)
+![](2019WACV_1.png)<br>
+Figure 1: Illustration of the space shift problem. The weight on each edge is the normalized Euclidean distance (dissimilarity) between two classes. The star is the center of data (points), which represents the data distribution. Clearly, the geometric structures significantly differ from each other in the three embedding spaces. Hence, the synthesized image data (blue and yellow stars) based on the transferred structure from other spaces deviate from the ground-truth data distribution (the green star). Therefore, the classifier learned based on the synthesized data may not fit real testing data. <br>
+![](2019WACV_2.png)<br>
+Figure 2: Overview of the proposed method. The images and labels are embedded into the image feature space and semantic embedding space respectively. Next, the image features and semantic embeddings are united in the joint embedding space with missing values (unseen image prototypes). Then, we alternatively learn the shared subspace structure (SSS) and missing values. During the learning process, structural knowledge is recurrently transferred between the two spaces. <br>
 
 Citation <br>
 ```
