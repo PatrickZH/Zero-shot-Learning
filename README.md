@@ -37,27 +37,34 @@ A competition was held based on this dataset. <br>
 [paper download](https://arxiv.org/pdf/1804.04314v2.pdf)<br>
 data download from [Google Drive](https://drive.google.com/open?id=1WU2dld1rt5ajWaZqY3YLwLp-6USeQiVG),
 from [BaiduYun](https://pan.baidu.com/s/1QpUpNLnUAOK1vhg5Di0qUQ), Password: cwju <br>
-[AI Challenger - Zero-shot Learning Competition](https://challenger.ai/competition/zsl2018)
+[AI Challenger - Zero-shot Learning Competition](https://challenger.ai/competition/zsl2018) <br>
 [baseline method](https://github.com/AIChallenger/AI_Challenger_2018/tree/master/Baselines/zero_shot_learning_baseline)
 
+![](2017_attribute_dataset.png)
 
+```
 @article{zhao2018large,
   title={A Large-scale Attribute Dataset for Zero-shot Learning},
   author={Zhao, Bo and Fu, Yanwei and Liang, Rui and Wu, Jiahong and Wang, Yonggang and Wang, Yizhou},
   journal={arXiv preprint arXiv:1804.04314},
   year={2018}
 }
+```
+
+## [3] MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning <br>
+
+
+@article{zhao2018msplit,
+  title={MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning},
+  author={Zhao, Bo and Sun, Xinwei and Fu, Yanwei and Yao, Yuan and Wang, Yizhou},
+  journal={Proceedings of the 35th International Conference on Machine Learning},
+  year={2018}
+}
+
 
 @article{,
   title={Zero-shot Learning via Recurrent Knowledge Transfer},
   author={Zhao, Bo and Sun, Xinwei and Hong, Xiaopeng and Yao, Yuan and Wang, Yizhou},
   journal={},
   year={}
-}
-
-@article{zhao2018msplit,
-  title={MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning},
-  author={Zhao, Bo and Sun, Xinwei and Fu, Yanwei and Yao, Yuan and Wang, Yizhou},
-  journal={arXiv preprint arXiv:1806.04360},
-  year={2018}
 }
