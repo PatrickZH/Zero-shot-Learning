@@ -5,7 +5,7 @@ Contact: Bo Zhao (bozhaonanjing at Gmail)
 Overall, we illustrate 4 papers including an attribute dataset, namely, <br>
 [1] Zero-shot learning posed as a missing data problem, ICCVW 2017 <br>
 [2] MSplit LBI: Realizing Feature Selection and Dense Estimation Simultaneously in Few-shot and Zero-shot Learning, ICML 2018 <br>
-[3] Zero-shot Learning via Recurrent Knowledge Transfer. WACV 2019<br><br>
+[3] Zero-shot Learning via Recurrent Knowledge Transfer. WACV 2019 <br>
 [4] A Large-scale Attribute Dataset for Zero-shot Learning, CVPRW 2019 <br>
 
 
