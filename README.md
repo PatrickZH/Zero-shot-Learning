@@ -83,7 +83,7 @@ A competition was held based on this dataset. <br>
 Data Download from [Google Drive](https://drive.google.com/open?id=1WU2dld1rt5ajWaZqY3YLwLp-6USeQiVG),
 from [BaiduYun](https://pan.baidu.com/s/1QpUpNLnUAOK1vhg5Di0qUQ), Password: cwju <br>
 [AI Challenger - Zero-shot Learning Competition](https://challenger.ai/competition/zsl2018) <br>
-[Baseline Code](https://github.com/AIChallenger/AI_Challenger_2018/tree/master/Baselines/zero_shot_learning_baseline)
+[Project](https://github.com/PatrickZH/A-Large-scale-Attribute-Dataset-for-Zero-shot-Learning)
 
 ![](2017_attribute_dataset.png) <br>
 Figure 1. The overview of the proposed LAD dataset. It includes 230 classes belonging to five super-classes (domains). Labels, bounding boxes and attributions are annotated. The upper two attributes are visual attributes, while the bottom two are semantic attributes. <br>
