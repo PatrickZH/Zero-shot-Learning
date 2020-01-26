@@ -90,10 +90,10 @@ Figure 1. The overview of the proposed LAD dataset. It includes 230 classes belo
 
 Citation <br>
 ```
-@article{zhao2018large,
+@inproceedings{zhao2019large,
   title={A Large-scale Attribute Dataset for Zero-shot Learning},
   author={Zhao, Bo and Fu, Yanwei and Liang, Rui and Wu, Jiahong and Wang, Yonggang and Wang, Yizhou},
-  journal={arXiv preprint arXiv:1804.04314},
-  year={2018}
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  year={2019}
 }
 ```
